@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+body {
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: white;
+}
+h1 {
+    height: 30px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(201, 194, 207);
+    border: 2px inset lightpink;
+    margin: auto;
+    padding: 4px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+input[type="button"] {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    /* background-color: aliceblue; */
+}
+
+input[type="button"]:hover {
+    cursor: pointer;
+}
+
+.calculator {
+    width: 320px;
+    height: 500px;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px;
+    padding: 20px;
+    background-color: black;
+    /* background-color: rgb(183, 199, 212); */
+    box-shadow: 0 0 30px black;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: rgb(227, 228, 230);
+}
+
+.clear {
+    background-color: rgb(96, 161, 183);
+    box-shadow: 0 0 20px black;
+}
+
+.dot {
+    background-color: rgb(172, 199, 37);
+    text-align: center;
+    box-shadow: 0 0 20px black;
+}
+
+.modulo {
+    background-color: rgb(152, 27, 152);
+    box-shadow: 0 0 20px black;
+}
+
+.divide {
+    background-color: rgb(85, 220, 175);
+    box-shadow: 0 0 20px black;
+}
+
+.plus {
+    background-color: #e58d8d;
+    box-shadow: 0 0 20px black;
+}
+
+.minus {
+    background-color: #5469b7;
+    box-shadow: 0 0 20px black;
+}
+
+.multiply {
+    background-color: #e39910;
+    box-shadow: 0 0 20px black;
+}
+
+.equalto {
+    background-color: #674b81;
+    box-shadow: 0 0 20px black;
+}
+
+#answer {
+    background-color: rgb(253, 254, 255);
+    /* border-width: 0; */
+    font-size: 30px;
+    font-weight: bold;
+    width: 210px;
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+}
